@@ -1,5 +1,7 @@
 
-# 
+# README.md
+# Visitor
+# Visitor represents an operation to be performed on the elements of an object structure. It lets you define a new operation without changing the classes of the elements on which it operates. The pattern has behavioral purpose and applies to the objects.
 
 import sys
 
@@ -16,11 +18,7 @@ class Visitor:
     pass
     
 #
-# Concrete Visitors
-# implement each operation declared by Visitor, which implement
-# a fragment of the algorithm defined for the corresponding class
-# of object in the structure
-#    
+
 class ConcreteVisitor1(Visitor):
   def __init__(self):
     Visitor.__init__(self)  
