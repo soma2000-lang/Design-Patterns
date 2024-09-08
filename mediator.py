@@ -1,12 +1,4 @@
-#Mediator pattern has behavioral purpose and applies on objects. The pattern defines an object that encapsulates how a set of objects interact. It promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently
-#
-# Python Design Patterns: Mediator
-# Author: Jakub Vojvoda [github.com/JakubVojvoda]
-# 2016
-#
-# Source code is licensed under MIT License
-# (for more details see LICENSE)
-# 
+
 
 import sys
 
